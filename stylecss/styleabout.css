@@ -1,5 +1,5 @@
 		body {
-			background-image: url('backgroundfinal.png');
+			background-image: url('../imgs2/backgroundfinal.png');
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -142,22 +142,22 @@
 			margin-left: 10px;
 		}
 		.sprite-facebook {
-			background: url('iconpack8.png') no-repeat -1021px -75px;
+			background: url('../imgs2/iconpack8.png') no-repeat -1021px -75px;
 			width: 129px;
 			height: 131px;
 		}
 		.sprite-facebook:hover {
-			background: url('iconpack8.png') no-repeat -76px -75px;
+			background: url('../imgs2/iconpack8.png') no-repeat -76px -75px;
 			width: 129px;
 			height: 131px;
 		}
 		.sprite-insta {
-			background: url('iconpack8.png') no-repeat -1194px -75px;
+			background: url('../imgs2/iconpack8.png') no-repeat -1194px -75px;
 			width: 129px;
 			height: 132px;
 		}
 		.sprite-insta:hover {
-			background: url('iconpack8.png') no-repeat -249px -75px;
+			background: url('../imgs2/iconpack8.png') no-repeat -249px -75px;
 			width: 129px;
 			height: 132px;
 		}
