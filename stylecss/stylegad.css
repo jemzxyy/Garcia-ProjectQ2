@@ -1,0 +1,204 @@
+		body {
+			overflow-x: hidden;
+			margin: 0;
+		}
+		#nav-bar {
+			margin:-8px;
+			padding: 10px;
+			background-color: #FFFFFF;
+			position: relative;
+ 			left: 0;
+ 			top: 0;
+  			width: 100%;
+			display: flex;
+			flex-direction: row;
+		}
+		#nav-bar div a {
+			text-decoration: none;
+			margin: 5px;
+		}
+		.nav-home {
+			text-decoration: none;
+			border-left: 1px solid #b0b0b0;
+			border-right: 1px solid #b0b0b0;
+			padding: 5px;
+		}
+		.nav-about {
+			text-decoration: none;
+			border-right: 1px solid #b0b0b0;
+			padding: 5px;
+		}
+		.nav-references {
+			text-decoration: none;
+			border-right: 1px solid #b0b0b0;
+			padding: 5px;
+		}
+		.profile {
+			float: right;
+			margin-left: 1111px;
+		}
+		.nav-button {
+			position: fixed;
+		}
+		.nav-open .nav {
+			transform: translateX(0);
+		}
+		.nav-open .main {
+			transform: translateX(350px);
+		}
+		.nav {
+			width: 350px;
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background: #FFFFFF;
+			transform: translateX(-350px);
+			transition: transform 0.2s;
+		}
+		.nav-close {
+			background: none;
+			border: none;
+			display: flex;
+			align-items: center;
+			margin-left: auto;
+			padding: 15px 25px;
+			color: #000000;
+			cursor: pointer;
+		}
+		.nav-links-container {
+			box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+		}
+		.nav-link {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 15px 25px;
+			text-decoration: none;
+			color: #000000;
+		}
+		.nav-text {
+			font-size: 25px;
+			font-weight: 500;
+		}
+		.nav-link:hover{
+			background: rgba(105, 100, 160, 0.05);
+		}
+		.nav-close:hover{
+			background: rgba(255, 255, 255, 0.05);
+		}
+		.main {
+			transition: transform 0.2s;
+			width: 20px;
+			height: 45px;
+			margin-top: 9px;
+		}
+		.content-header {
+			margin-top: -25px;
+			background-color: #5f009e;
+		}
+		.header {
+			text-align: left;
+			color: #f2f2f2;
+			font-family: Arial Black;
+			font-weight: bold;
+			padding: 10px 0px 5px 10px;
+		}
+		h2 {
+			text-align: center;
+			background-color: #e3e3e3;
+			color: #5f009e;
+			padding: 10px;
+		}
+		.terms {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin: 15px;
+		}
+		.terms div {
+			width: 33%;
+			height: 115px;
+		}
+		.term:nth-child(1) {	
+			font-size: 20px;
+			font-weight: bold;
+			font-family: Verdana;
+			text-decoration: underline;
+			text-align: center;
+			color: #00008B;
+		}
+		.defn:nth-child(2) {
+			font-size: 15px;
+			font-family: Georgia;
+			text-align: center;
+		}
+		h3 {
+			color: #130fff;
+			text-decoration: underline;
+		}
+		.content-gad p {
+			font-size: 18px;
+			font-family: Georgia;
+			text-align: justify;
+			margin-left: 15px;
+			margin-right: 15px;
+			line-height: 1.5;
+		}
+		.gad-img {
+			width: 100%;
+			height: 520px;
+			margin-left: 10px;
+		}
+		.divider {
+			background-color: #FFFFFF;
+ 			padding: 15px;
+  			width: 100%;
+			left: 0px;
+		}
+		.fn-container {
+			margin-top: 200px;
+			background-color: #E6E6FA;
+			width: 100%;
+		}
+		.footnotes {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		.contacts {
+			font-size: 15px;
+			padding: 20px;
+			margin-left: 10px;
+		}
+		a:nth-child(1) {
+			text-decoration: none;
+		}
+		ul {
+			list-style-type: none;
+		}
+		.student-info {
+			font-size: 15px;
+			padding: 20px;
+			margin-left: 10px;
+		}
+		.sprite-facebook {
+			background: url('iconpack8.png') no-repeat -1021px -75px;
+			width: 129px;
+			height: 131px;
+		}
+		.sprite-facebook:hover {
+			background: url('iconpack8.png') no-repeat -76px -75px;
+			width: 129px;
+			height: 131px;
+		}
+		.sprite-insta {
+			background: url('iconpack8.png') no-repeat -1194px -75px;
+			width: 129px;
+			height: 132px;
+		}
+		.sprite-insta:hover {
+			background: url('iconpack8.png') no-repeat -249px -75px;
+			width: 129px;
+			height: 132px;
+		}
