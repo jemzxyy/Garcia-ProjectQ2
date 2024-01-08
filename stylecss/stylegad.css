@@ -93,6 +93,9 @@
 			height: 45px;
 			margin-top: 9px;
 		}
+		.header-title {
+			position: fixed;
+		}
 		.content-header {
 			margin-top: -25px;
 			background-color: #5f009e;
