@@ -97,6 +97,9 @@
 			height: 45px;
 			margin-top: 9px;
 		}
+		.header-title {
+			position: fixed;
+		}
 		#menu-bar {
 			position: fixed;
  			left: 0;
