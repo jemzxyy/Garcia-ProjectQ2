@@ -95,7 +95,7 @@
 		}
 		.header-title {
 			width: 100vh;
-			min-height: 25vh;
+			height: 75vh;
 		}
 		.content-header {
 			margin-top: -25px;
