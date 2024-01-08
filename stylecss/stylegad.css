@@ -94,7 +94,8 @@
 			margin-top: 9px;
 		}
 		.header-title {
-			position: fixed;
+			width: 100vh;
+			min-height: 25vh;
 		}
 		.content-header {
 			margin-top: -25px;
